@@ -65,7 +65,7 @@ const PREC = {
     imaginaryLiteral = seq(choice(decimalDigits, intLiteral, floatLiteral), 'i')
 
 module.exports = grammar({
-    name: 'gotmpl',
+    name: 'go_template',
     conflicts: $ => [
         // conflict between a template in an else if clause and the beginning of the 
         // else clause in not solveable with LR(1)
