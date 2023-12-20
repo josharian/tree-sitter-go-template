@@ -1,5 +1,5 @@
 {
-  "name": "gotmpl",
+  "name": "go_template",
   "rules": {
     "template": {
       "type": "REPEAT",
